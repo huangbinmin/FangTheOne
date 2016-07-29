@@ -1,0 +1,31 @@
+//
+//  TheOne.pch
+//  TheOne
+//
+//  Created by 黄斌民 on 16/7/28.
+//  Copyright © 2016年 Bin. All rights reserved.
+//
+
+#ifndef TheOne_pch
+#define TheOne_pch
+
+#ifdef __OBJC__
+
+
+
+/*** 日志 ***/
+#ifdef DEBUG
+#define BMLog(...) NSLog(__VA_ARGS__)
+#else
+#define BMLog(...)
+#endif
+
+#define BMLogFunc BMLog(@"%s", __func__);
+
+/*** 颜色 ***/
+#define BMColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+#endif
+
+#endif /* TheOne_pch */

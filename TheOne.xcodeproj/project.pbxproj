@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DB287B1D4A25F700CC5126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB287A1D4A25F700CC5126 /* main.m */; };
+		32DB287E1D4A25F700CC5126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB287D1D4A25F700CC5126 /* AppDelegate.m */; };
+		32DB28861D4A25F700CC5126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DB28851D4A25F700CC5126 /* Assets.xcassets */; };
+		32DB28891D4A25F700CC5126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DB28871D4A25F700CC5126 /* LaunchScreen.storyboard */; };
+		32DB28941D4A25F700CC5126 /* TheOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28931D4A25F700CC5126 /* TheOneTests.m */; };
+		32DB289F1D4A25F700CC5126 /* TheOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB289E1D4A25F700CC5126 /* TheOneUITests.m */; };
+		32DB28C01D4A2B6000CC5126 /* BMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28BF1D4A2B6000CC5126 /* BMTabBarController.m */; };
+		32DB28C31D4A2B9200CC5126 /* BMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28C21D4A2B9200CC5126 /* BMHomeViewController.m */; };
+		32DB28C61D4A2BA000CC5126 /* BMMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28C51D4A2BA000CC5126 /* BMMovieViewController.m */; };
+		32DB28C91D4A2BAD00CC5126 /* BMMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28C81D4A2BAD00CC5126 /* BMMusicViewController.m */; };
+		32DB28CC1D4A2BB800CC5126 /* BMReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28CB1D4A2BB800CC5126 /* BMReadViewController.m */; };
+		32DB28CF1D4A2BD700CC5126 /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28CE1D4A2BD700CC5126 /* BMNavigationController.m */; };
+		32DB28D31D4A388C00CC5126 /* BMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28D21D4A388C00CC5126 /* BMBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32DB28901D4A25F700CC5126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DB286E1D4A25F700CC5126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DB28751D4A25F700CC5126;
+			remoteInfo = TheOne;
+		};
+		32DB289B1D4A25F700CC5126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DB286E1D4A25F700CC5126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DB28751D4A25F700CC5126;
+			remoteInfo = TheOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32DB28761D4A25F700CC5126 /* TheOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DB287A1D4A25F700CC5126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32DB287C1D4A25F700CC5126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32DB287D1D4A25F700CC5126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32DB28851D4A25F700CC5126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DB28881D4A25F700CC5126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32DB288A1D4A25F700CC5126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DB288F1D4A25F700CC5126 /* TheOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DB28931D4A25F700CC5126 /* TheOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheOneTests.m; sourceTree = "<group>"; };
+		32DB28951D4A25F700CC5126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DB289A1D4A25F700CC5126 /* TheOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DB289E1D4A25F700CC5126 /* TheOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheOneUITests.m; sourceTree = "<group>"; };
+		32DB28A01D4A25F700CC5126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DB28BE1D4A2B6000CC5126 /* BMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTabBarController.h; sourceTree = "<group>"; };
+		32DB28BF1D4A2B6000CC5126 /* BMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTabBarController.m; sourceTree = "<group>"; };
+		32DB28C11D4A2B9200CC5126 /* BMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeViewController.h; sourceTree = "<group>"; };
+		32DB28C21D4A2B9200CC5126 /* BMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeViewController.m; sourceTree = "<group>"; };
+		32DB28C41D4A2BA000CC5126 /* BMMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMovieViewController.h; sourceTree = "<group>"; };
+		32DB28C51D4A2BA000CC5126 /* BMMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMovieViewController.m; sourceTree = "<group>"; };
+		32DB28C71D4A2BAD00CC5126 /* BMMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicViewController.h; sourceTree = "<group>"; };
+		32DB28C81D4A2BAD00CC5126 /* BMMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicViewController.m; sourceTree = "<group>"; };
+		32DB28CA1D4A2BB800CC5126 /* BMReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMReadViewController.h; sourceTree = "<group>"; };
+		32DB28CB1D4A2BB800CC5126 /* BMReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMReadViewController.m; sourceTree = "<group>"; };
+		32DB28CD1D4A2BD700CC5126 /* BMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationController.h; sourceTree = "<group>"; };
+		32DB28CE1D4A2BD700CC5126 /* BMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavigationController.m; sourceTree = "<group>"; };
+		32DB28D11D4A388C00CC5126 /* BMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBaseViewController.h; sourceTree = "<group>"; };
+		32DB28D21D4A388C00CC5126 /* BMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBaseViewController.m; sourceTree = "<group>"; };
+		32DB28D71D4A3B4800CC5126 /* TheOne.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheOne.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DB28731D4A25F700CC5126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB288C1D4A25F700CC5126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB28971D4A25F700CC5126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DB286D1D4A25F700CC5126 = {
+			isa = PBXGroup;
+			children = (
+				32DB28781D4A25F700CC5126 /* TheOne */,
+				32DB28921D4A25F700CC5126 /* TheOneTests */,
+				32DB289D1D4A25F700CC5126 /* TheOneUITests */,
+				32DB28771D4A25F700CC5126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32DB28771D4A25F700CC5126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28761D4A25F700CC5126 /* TheOne.app */,
+				32DB288F1D4A25F700CC5126 /* TheOneTests.xctest */,
+				32DB289A1D4A25F700CC5126 /* TheOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DB28781D4A25F700CC5126 /* TheOne */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28AC1D4A2AF800CC5126 /* Classes */,
+				32DB287C1D4A25F700CC5126 /* AppDelegate.h */,
+				32DB287D1D4A25F700CC5126 /* AppDelegate.m */,
+				32DB28851D4A25F700CC5126 /* Assets.xcassets */,
+				32DB28871D4A25F700CC5126 /* LaunchScreen.storyboard */,
+				32DB288A1D4A25F700CC5126 /* Info.plist */,
+				32DB28791D4A25F700CC5126 /* Supporting Files */,
+			);
+			path = TheOne;
+			sourceTree = "<group>";
+		};
+		32DB28791D4A25F700CC5126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32DB287A1D4A25F700CC5126 /* main.m */,
+				32DB28D71D4A3B4800CC5126 /* TheOne.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32DB28921D4A25F700CC5126 /* TheOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28931D4A25F700CC5126 /* TheOneTests.m */,
+				32DB28951D4A25F700CC5126 /* Info.plist */,
+			);
+			path = TheOneTests;
+			sourceTree = "<group>";
+		};
+		32DB289D1D4A25F700CC5126 /* TheOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32DB289E1D4A25F700CC5126 /* TheOneUITests.m */,
+				32DB28A01D4A25F700CC5126 /* Info.plist */,
+			);
+			path = TheOneUITests;
+			sourceTree = "<group>";
+		};
+		32DB28AC1D4A2AF800CC5126 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28AD1D4A2AF800CC5126 /* Controller */,
+				32DB28B21D4A2AF800CC5126 /* Model */,
+				32DB28B71D4A2AF800CC5126 /* Other */,
+				32DB28B81D4A2AF800CC5126 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32DB28AD1D4A2AF800CC5126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28BD1D4A2B4100CC5126 /* Main */,
+				32DB28D01D4A385C00CC5126 /* Base */,
+				32DB28AE1D4A2AF800CC5126 /* Home */,
+				32DB28AF1D4A2AF800CC5126 /* Movie */,
+				32DB28B01D4A2AF800CC5126 /* Music */,
+				32DB28B11D4A2AF800CC5126 /* Read */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32DB28AE1D4A2AF800CC5126 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28C11D4A2B9200CC5126 /* BMHomeViewController.h */,
+				32DB28C21D4A2B9200CC5126 /* BMHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32DB28AF1D4A2AF800CC5126 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28C41D4A2BA000CC5126 /* BMMovieViewController.h */,
+				32DB28C51D4A2BA000CC5126 /* BMMovieViewController.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		32DB28B01D4A2AF800CC5126 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28C71D4A2BAD00CC5126 /* BMMusicViewController.h */,
+				32DB28C81D4A2BAD00CC5126 /* BMMusicViewController.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		32DB28B11D4A2AF800CC5126 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28CA1D4A2BB800CC5126 /* BMReadViewController.h */,
+				32DB28CB1D4A2BB800CC5126 /* BMReadViewController.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		32DB28B21D4A2AF800CC5126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28B31D4A2AF800CC5126 /* Home */,
+				32DB28B41D4A2AF800CC5126 /* Movie */,
+				32DB28B51D4A2AF800CC5126 /* Music */,
+				32DB28B61D4A2AF800CC5126 /* Read */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32DB28B31D4A2AF800CC5126 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32DB28B41D4A2AF800CC5126 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		32DB28B51D4A2AF800CC5126 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		32DB28B61D4A2AF800CC5126 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		32DB28B71D4A2AF800CC5126 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		32DB28B81D4A2AF800CC5126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28B91D4A2AF800CC5126 /* Home */,
+				32DB28BA1D4A2AF800CC5126 /* Movie */,
+				32DB28BB1D4A2AF800CC5126 /* Music */,
+				32DB28BC1D4A2AF800CC5126 /* Read */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32DB28B91D4A2AF800CC5126 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32DB28BA1D4A2AF800CC5126 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		32DB28BB1D4A2AF800CC5126 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		32DB28BC1D4A2AF800CC5126 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		32DB28BD1D4A2B4100CC5126 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28BE1D4A2B6000CC5126 /* BMTabBarController.h */,
+				32DB28BF1D4A2B6000CC5126 /* BMTabBarController.m */,
+				32DB28CD1D4A2BD700CC5126 /* BMNavigationController.h */,
+				32DB28CE1D4A2BD700CC5126 /* BMNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		32DB28D01D4A385C00CC5126 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				32DB28D11D4A388C00CC5126 /* BMBaseViewController.h */,
+				32DB28D21D4A388C00CC5126 /* BMBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32DB28751D4A25F700CC5126 /* TheOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DB28A31D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOne" */;
+			buildPhases = (
+				32DB28721D4A25F700CC5126 /* Sources */,
+				32DB28731D4A25F700CC5126 /* Frameworks */,
+				32DB28741D4A25F700CC5126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheOne;
+			productName = TheOne;
+			productReference = 32DB28761D4A25F700CC5126 /* TheOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32DB288E1D4A25F700CC5126 /* TheOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DB28A61D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOneTests" */;
+			buildPhases = (
+				32DB288B1D4A25F700CC5126 /* Sources */,
+				32DB288C1D4A25F700CC5126 /* Frameworks */,
+				32DB288D1D4A25F700CC5126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DB28911D4A25F700CC5126 /* PBXTargetDependency */,
+			);
+			name = TheOneTests;
+			productName = TheOneTests;
+			productReference = 32DB288F1D4A25F700CC5126 /* TheOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32DB28991D4A25F700CC5126 /* TheOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DB28A91D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOneUITests" */;
+			buildPhases = (
+				32DB28961D4A25F700CC5126 /* Sources */,
+				32DB28971D4A25F700CC5126 /* Frameworks */,
+				32DB28981D4A25F700CC5126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DB289C1D4A25F700CC5126 /* PBXTargetDependency */,
+			);
+			name = TheOneUITests;
+			productName = TheOneUITests;
+			productReference = 32DB289A1D4A25F700CC5126 /* TheOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DB286E1D4A25F700CC5126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bin;
+				TargetAttributes = {
+					32DB28751D4A25F700CC5126 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					32DB288E1D4A25F700CC5126 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32DB28751D4A25F700CC5126;
+					};
+					32DB28991D4A25F700CC5126 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32DB28751D4A25F700CC5126;
+					};
+				};
+			};
+			buildConfigurationList = 32DB28711D4A25F700CC5126 /* Build configuration list for PBXProject "TheOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32DB286D1D4A25F700CC5126;
+			productRefGroup = 32DB28771D4A25F700CC5126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DB28751D4A25F700CC5126 /* TheOne */,
+				32DB288E1D4A25F700CC5126 /* TheOneTests */,
+				32DB28991D4A25F700CC5126 /* TheOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32DB28741D4A25F700CC5126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DB28891D4A25F700CC5126 /* LaunchScreen.storyboard in Resources */,
+				32DB28861D4A25F700CC5126 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB288D1D4A25F700CC5126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB28981D4A25F700CC5126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DB28721D4A25F700CC5126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DB28C61D4A2BA000CC5126 /* BMMovieViewController.m in Sources */,
+				32DB28CC1D4A2BB800CC5126 /* BMReadViewController.m in Sources */,
+				32DB28C91D4A2BAD00CC5126 /* BMMusicViewController.m in Sources */,
+				32DB28C31D4A2B9200CC5126 /* BMHomeViewController.m in Sources */,
+				32DB28C01D4A2B6000CC5126 /* BMTabBarController.m in Sources */,
+				32DB287E1D4A25F700CC5126 /* AppDelegate.m in Sources */,
+				32DB28CF1D4A2BD700CC5126 /* BMNavigationController.m in Sources */,
+				32DB287B1D4A25F700CC5126 /* main.m in Sources */,
+				32DB28D31D4A388C00CC5126 /* BMBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB288B1D4A25F700CC5126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DB28941D4A25F700CC5126 /* TheOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DB28961D4A25F700CC5126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DB289F1D4A25F700CC5126 /* TheOneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32DB28911D4A25F700CC5126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DB28751D4A25F700CC5126 /* TheOne */;
+			targetProxy = 32DB28901D4A25F700CC5126 /* PBXContainerItemProxy */;
+		};
+		32DB289C1D4A25F700CC5126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DB28751D4A25F700CC5126 /* TheOne */;
+			targetProxy = 32DB289B1D4A25F700CC5126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32DB28871D4A25F700CC5126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32DB28881D4A25F700CC5126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32DB28A11D4A25F700CC5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32DB28A21D4A25F700CC5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32DB28A41D4A25F700CC5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TheOne/TheOne.pch;
+				INFOPLIST_FILE = TheOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32DB28A51D4A25F700CC5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TheOne/TheOne.pch;
+				INFOPLIST_FILE = TheOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32DB28A71D4A25F700CC5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOne.app/TheOne";
+			};
+			name = Debug;
+		};
+		32DB28A81D4A25F700CC5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOne.app/TheOne";
+			};
+			name = Release;
+		};
+		32DB28AA1D4A25F700CC5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheOne;
+			};
+			name = Debug;
+		};
+		32DB28AB1D4A25F700CC5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.TheOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32DB28711D4A25F700CC5126 /* Build configuration list for PBXProject "TheOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DB28A11D4A25F700CC5126 /* Debug */,
+				32DB28A21D4A25F700CC5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DB28A31D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DB28A41D4A25F700CC5126 /* Debug */,
+				32DB28A51D4A25F700CC5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DB28A61D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DB28A71D4A25F700CC5126 /* Debug */,
+				32DB28A81D4A25F700CC5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DB28A91D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DB28AA1D4A25F700CC5126 /* Debug */,
+				32DB28AB1D4A25F700CC5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DB286E1D4A25F700CC5126 /* Project object */;
+}
