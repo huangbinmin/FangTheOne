@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323AC9BD1D50F59B002AB438 /* BMReadCarouselItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC9BC1D50F59B002AB438 /* BMReadCarouselItem.m */; };
+		32806F0A1D4EBE2B006EA1AF /* BMHomeByMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32806F091D4EBE2B006EA1AF /* BMHomeByMonthViewController.m */; };
+		32806F0E1D4ECAD1006EA1AF /* BMHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32806F0C1D4ECAD1006EA1AF /* BMHomeItemCell.m */; };
+		32806F0F1D4ECAD1006EA1AF /* BMHomeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32806F0D1D4ECAD1006EA1AF /* BMHomeItemCell.xib */; };
+		329414331D4DFE9600D2475E /* BMPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 329414321D4DFE9600D2475E /* BMPopMenu.m */; };
+		329414361D4E530E00D2475E /* BMPastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329414351D4E530E00D2475E /* BMPastViewController.m */; };
+		32A7AA7B1D4B16A400D617B6 /* BMContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A7AA7A1D4B16A400D617B6 /* BMContentView.m */; };
+		32A7AA7D1D4B16C700D617B6 /* BMContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A7AA7C1D4B16C700D617B6 /* BMContentView.xib */; };
 		32DB287B1D4A25F700CC5126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB287A1D4A25F700CC5126 /* main.m */; };
 		32DB287E1D4A25F700CC5126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB287D1D4A25F700CC5126 /* AppDelegate.m */; };
 		32DB28861D4A25F700CC5126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DB28851D4A25F700CC5126 /* Assets.xcassets */; };
@@ -20,6 +28,12 @@
 		32DB28CC1D4A2BB800CC5126 /* BMReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28CB1D4A2BB800CC5126 /* BMReadViewController.m */; };
 		32DB28CF1D4A2BD700CC5126 /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28CE1D4A2BD700CC5126 /* BMNavigationController.m */; };
 		32DB28D31D4A388C00CC5126 /* BMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DB28D21D4A388C00CC5126 /* BMBaseViewController.m */; };
+		32DC099F1D4D7E6700D59FC9 /* BMHTTPAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC099E1D4D7E6700D59FC9 /* BMHTTPAPIManager.m */; };
+		32DC09A31D4D8AFC00D59FC9 /* BMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC09A21D4D8AFC00D59FC9 /* BMConst.m */; };
+		32DC09A61D4D92FA00D59FC9 /* BMHomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC09A51D4D92FA00D59FC9 /* BMHomeItem.m */; };
+		32E72FF71D4CA7440069BC43 /* BMHomeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E72FF61D4CA7440069BC43 /* BMHomeBottomView.m */; };
+		32E72FF91D4CA7530069BC43 /* BMHomeBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E72FF81D4CA7530069BC43 /* BMHomeBottomView.xib */; };
+		B13A8AF75B53D46E1BE1A1B4 /* libPods-TheOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 596ACD0B2176DE780D2E409C /* libPods-TheOne.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323AC9BB1D50F59B002AB438 /* BMReadCarouselItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMReadCarouselItem.h; sourceTree = "<group>"; };
+		323AC9BC1D50F59B002AB438 /* BMReadCarouselItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMReadCarouselItem.m; sourceTree = "<group>"; };
+		32806F081D4EBE2B006EA1AF /* BMHomeByMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeByMonthViewController.h; sourceTree = "<group>"; };
+		32806F091D4EBE2B006EA1AF /* BMHomeByMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeByMonthViewController.m; sourceTree = "<group>"; };
+		32806F0B1D4ECAD1006EA1AF /* BMHomeItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeItemCell.h; sourceTree = "<group>"; };
+		32806F0C1D4ECAD1006EA1AF /* BMHomeItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeItemCell.m; sourceTree = "<group>"; };
+		32806F0D1D4ECAD1006EA1AF /* BMHomeItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMHomeItemCell.xib; sourceTree = "<group>"; };
+		329414311D4DFE9600D2475E /* BMPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPopMenu.h; sourceTree = "<group>"; };
+		329414321D4DFE9600D2475E /* BMPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPopMenu.m; sourceTree = "<group>"; };
+		329414341D4E530E00D2475E /* BMPastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPastViewController.h; sourceTree = "<group>"; };
+		329414351D4E530E00D2475E /* BMPastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPastViewController.m; sourceTree = "<group>"; };
+		32A7AA791D4B16A400D617B6 /* BMContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMContentView.h; sourceTree = "<group>"; };
+		32A7AA7A1D4B16A400D617B6 /* BMContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMContentView.m; sourceTree = "<group>"; };
+		32A7AA7C1D4B16C700D617B6 /* BMContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMContentView.xib; sourceTree = "<group>"; };
 		32DB28761D4A25F700CC5126 /* TheOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DB287A1D4A25F700CC5126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32DB287C1D4A25F700CC5126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +96,18 @@
 		32DB28D11D4A388C00CC5126 /* BMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBaseViewController.h; sourceTree = "<group>"; };
 		32DB28D21D4A388C00CC5126 /* BMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBaseViewController.m; sourceTree = "<group>"; };
 		32DB28D71D4A3B4800CC5126 /* TheOne.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheOne.pch; sourceTree = "<group>"; };
+		32DC099D1D4D7E6700D59FC9 /* BMHTTPAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHTTPAPIManager.h; sourceTree = "<group>"; };
+		32DC099E1D4D7E6700D59FC9 /* BMHTTPAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHTTPAPIManager.m; sourceTree = "<group>"; };
+		32DC09A11D4D8AFC00D59FC9 /* BMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMConst.h; sourceTree = "<group>"; };
+		32DC09A21D4D8AFC00D59FC9 /* BMConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMConst.m; sourceTree = "<group>"; };
+		32DC09A41D4D92FA00D59FC9 /* BMHomeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeItem.h; sourceTree = "<group>"; };
+		32DC09A51D4D92FA00D59FC9 /* BMHomeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeItem.m; sourceTree = "<group>"; };
+		32E72FF51D4CA7440069BC43 /* BMHomeBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeBottomView.h; sourceTree = "<group>"; };
+		32E72FF61D4CA7440069BC43 /* BMHomeBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeBottomView.m; sourceTree = "<group>"; };
+		32E72FF81D4CA7530069BC43 /* BMHomeBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMHomeBottomView.xib; sourceTree = "<group>"; };
+		596ACD0B2176DE780D2E409C /* libPods-TheOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F1658C805892D737C92053 /* Pods-TheOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheOne/Pods-TheOne.debug.xcconfig"; sourceTree = "<group>"; };
+		EDBDF678E30613E234526EC6 /* Pods-TheOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheOne/Pods-TheOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13A8AF75B53D46E1BE1A1B4 /* libPods-TheOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +136,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3294142C1D4DFCBF00D2475E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		329414301D4DFE7300D2475E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				329414311D4DFE9600D2475E /* BMPopMenu.h */,
+				329414321D4DFE9600D2475E /* BMPopMenu.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		32DB286D1D4A25F700CC5126 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +159,8 @@
 				32DB28921D4A25F700CC5126 /* TheOneTests */,
 				32DB289D1D4A25F700CC5126 /* TheOneUITests */,
 				32DB28771D4A25F700CC5126 /* Products */,
+				A4C3DB87562DD3E8FE78FD10 /* Pods */,
+				E462AEE1D5503654CFB7B2E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,10 +218,11 @@
 		32DB28AC1D4A2AF800CC5126 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				32DC099C1D4D7E2800D59FC9 /* NetWorking */,
 				32DB28AD1D4A2AF800CC5126 /* Controller */,
 				32DB28B21D4A2AF800CC5126 /* Model */,
-				32DB28B71D4A2AF800CC5126 /* Other */,
 				32DB28B81D4A2AF800CC5126 /* View */,
+				32DB28B71D4A2AF800CC5126 /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -176,6 +236,7 @@
 				32DB28AF1D4A2AF800CC5126 /* Movie */,
 				32DB28B01D4A2AF800CC5126 /* Music */,
 				32DB28B11D4A2AF800CC5126 /* Read */,
+				3294142C1D4DFCBF00D2475E /* Other */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +246,10 @@
 			children = (
 				32DB28C11D4A2B9200CC5126 /* BMHomeViewController.h */,
 				32DB28C21D4A2B9200CC5126 /* BMHomeViewController.m */,
+				329414341D4E530E00D2475E /* BMPastViewController.h */,
+				329414351D4E530E00D2475E /* BMPastViewController.m */,
+				32806F081D4EBE2B006EA1AF /* BMHomeByMonthViewController.h */,
+				32806F091D4EBE2B006EA1AF /* BMHomeByMonthViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -230,6 +295,8 @@
 		32DB28B31D4A2AF800CC5126 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				32DC09A41D4D92FA00D59FC9 /* BMHomeItem.h */,
+				32DC09A51D4D92FA00D59FC9 /* BMHomeItem.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -251,6 +318,8 @@
 		32DB28B61D4A2AF800CC5126 /* Read */ = {
 			isa = PBXGroup;
 			children = (
+				323AC9BB1D50F59B002AB438 /* BMReadCarouselItem.h */,
+				323AC9BC1D50F59B002AB438 /* BMReadCarouselItem.m */,
 			);
 			path = Read;
 			sourceTree = "<group>";
@@ -258,6 +327,7 @@
 		32DB28B71D4A2AF800CC5126 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				32DC09A01D4D8AEF00D59FC9 /* Const */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -269,6 +339,7 @@
 				32DB28BA1D4A2AF800CC5126 /* Movie */,
 				32DB28BB1D4A2AF800CC5126 /* Music */,
 				32DB28BC1D4A2AF800CC5126 /* Read */,
+				329414301D4DFE7300D2475E /* Other */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +347,15 @@
 		32DB28B91D4A2AF800CC5126 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				32A7AA791D4B16A400D617B6 /* BMContentView.h */,
+				32A7AA7A1D4B16A400D617B6 /* BMContentView.m */,
+				32A7AA7C1D4B16C700D617B6 /* BMContentView.xib */,
+				32E72FF51D4CA7440069BC43 /* BMHomeBottomView.h */,
+				32E72FF61D4CA7440069BC43 /* BMHomeBottomView.m */,
+				32E72FF81D4CA7530069BC43 /* BMHomeBottomView.xib */,
+				32806F0B1D4ECAD1006EA1AF /* BMHomeItemCell.h */,
+				32806F0C1D4ECAD1006EA1AF /* BMHomeItemCell.m */,
+				32806F0D1D4ECAD1006EA1AF /* BMHomeItemCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -321,6 +401,41 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		32DC099C1D4D7E2800D59FC9 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				32DC099D1D4D7E6700D59FC9 /* BMHTTPAPIManager.h */,
+				32DC099E1D4D7E6700D59FC9 /* BMHTTPAPIManager.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		32DC09A01D4D8AEF00D59FC9 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				32DC09A11D4D8AFC00D59FC9 /* BMConst.h */,
+				32DC09A21D4D8AFC00D59FC9 /* BMConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		A4C3DB87562DD3E8FE78FD10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F1658C805892D737C92053 /* Pods-TheOne.debug.xcconfig */,
+				EDBDF678E30613E234526EC6 /* Pods-TheOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E462AEE1D5503654CFB7B2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596ACD0B2176DE780D2E409C /* libPods-TheOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32DB28A31D4A25F700CC5126 /* Build configuration list for PBXNativeTarget "TheOne" */;
 			buildPhases = (
+				849E42E9AE8840C71E773EF3 /* [CP] Check Pods Manifest.lock */,
 				32DB28721D4A25F700CC5126 /* Sources */,
 				32DB28731D4A25F700CC5126 /* Frameworks */,
 				32DB28741D4A25F700CC5126 /* Resources */,
+				1C091E62B370AF2D6B274E15 /* [CP] Embed Pods Frameworks */,
+				98B9D2F117E51FF9AD6C2C07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,6 +544,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DB28891D4A25F700CC5126 /* LaunchScreen.storyboard in Resources */,
+				32A7AA7D1D4B16C700D617B6 /* BMContentView.xib in Resources */,
+				32806F0F1D4ECAD1006EA1AF /* BMHomeItemCell.xib in Resources */,
+				32E72FF91D4CA7530069BC43 /* BMHomeBottomView.xib in Resources */,
 				32DB28861D4A25F700CC5126 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,20 +567,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C091E62B370AF2D6B274E15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheOne/Pods-TheOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849E42E9AE8840C71E773EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98B9D2F117E51FF9AD6C2C07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheOne/Pods-TheOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32DB28721D4A25F700CC5126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DC09A61D4D92FA00D59FC9 /* BMHomeItem.m in Sources */,
 				32DB28C61D4A2BA000CC5126 /* BMMovieViewController.m in Sources */,
 				32DB28CC1D4A2BB800CC5126 /* BMReadViewController.m in Sources */,
 				32DB28C91D4A2BAD00CC5126 /* BMMusicViewController.m in Sources */,
 				32DB28C31D4A2B9200CC5126 /* BMHomeViewController.m in Sources */,
 				32DB28C01D4A2B6000CC5126 /* BMTabBarController.m in Sources */,
+				32806F0A1D4EBE2B006EA1AF /* BMHomeByMonthViewController.m in Sources */,
+				32DC09A31D4D8AFC00D59FC9 /* BMConst.m in Sources */,
+				329414361D4E530E00D2475E /* BMPastViewController.m in Sources */,
+				323AC9BD1D50F59B002AB438 /* BMReadCarouselItem.m in Sources */,
+				32DC099F1D4D7E6700D59FC9 /* BMHTTPAPIManager.m in Sources */,
 				32DB287E1D4A25F700CC5126 /* AppDelegate.m in Sources */,
+				329414331D4DFE9600D2475E /* BMPopMenu.m in Sources */,
 				32DB28CF1D4A2BD700CC5126 /* BMNavigationController.m in Sources */,
 				32DB287B1D4A25F700CC5126 /* main.m in Sources */,
+				32E72FF71D4CA7440069BC43 /* BMHomeBottomView.m in Sources */,
 				32DB28D31D4A388C00CC5126 /* BMBaseViewController.m in Sources */,
+				32806F0E1D4ECAD1006EA1AF /* BMHomeItemCell.m in Sources */,
+				32A7AA7B1D4B16A400D617B6 /* BMContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +769,7 @@
 		};
 		32DB28A41D4A25F700CC5126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F1658C805892D737C92053 /* Pods-TheOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = TheOne/TheOne.pch;
@@ -602,6 +782,7 @@
 		};
 		32DB28A51D4A25F700CC5126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBDF678E30613E234526EC6 /* Pods-TheOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = TheOne/TheOne.pch;

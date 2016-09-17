@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BMHomeItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="273"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="273"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="747-v1-PDf">
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="747-v1-PDf" secondAttribute="height" multiplier="4:3" id="tdq-vF-Ygb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5A-nE-PGZ">
+                        <rect key="frame" x="0.0" y="137" width="202" height="15"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40247844827586204" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qO9-Ml-nYv">
+                        <rect key="frame" x="0.0" y="152" width="202" height="121"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="747-v1-PDf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1tw-D1-wu5"/>
+                <constraint firstItem="qO9-Ml-nYv" firstAttribute="top" secondItem="747-v1-PDf" secondAttribute="bottom" id="5Qd-jS-zTR"/>
+                <constraint firstItem="qO9-Ml-nYv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dda-sl-VzP"/>
+                <constraint firstAttribute="trailing" secondItem="qO9-Ml-nYv" secondAttribute="trailing" id="KHh-6T-Qtl"/>
+                <constraint firstItem="747-v1-PDf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NRd-TH-hUC"/>
+                <constraint firstItem="N5A-nE-PGZ" firstAttribute="bottom" secondItem="747-v1-PDf" secondAttribute="bottom" id="SSK-fq-Vd2"/>
+                <constraint firstAttribute="trailing" secondItem="747-v1-PDf" secondAttribute="trailing" id="lrI-Va-BfP"/>
+                <constraint firstItem="N5A-nE-PGZ" firstAttribute="trailing" secondItem="747-v1-PDf" secondAttribute="trailing" id="rwL-eP-sp4"/>
+                <constraint firstItem="qO9-Ml-nYv" firstAttribute="top" secondItem="747-v1-PDf" secondAttribute="top" id="tKt-fa-Q29"/>
+                <constraint firstItem="N5A-nE-PGZ" firstAttribute="leading" secondItem="747-v1-PDf" secondAttribute="leading" id="vJk-An-vnV"/>
+                <constraint firstAttribute="bottom" secondItem="qO9-Ml-nYv" secondAttribute="bottom" id="vM7-CB-TPh"/>
+            </constraints>
+            <size key="customSize" width="202" height="273"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="tKt-fa-Q29"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="contentTextView" destination="qO9-Ml-nYv" id="aZY-Sx-ydm"/>
+                <outlet property="imageView" destination="747-v1-PDf" id="glI-Hd-sbs"/>
+                <outlet property="volLabel" destination="N5A-nE-PGZ" id="62A-BP-yex"/>
+            </connections>
+            <point key="canvasLocation" x="356" y="289.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
